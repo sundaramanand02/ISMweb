@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.blog h3 {
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+
+.blog {
+    border: 0.5px solid grey;
+    box-shadow: 15px 35px 15px rgba(121, 197, 227, 0.1);
+    padding: 10px 20px;
+    margin: 40px 20px;
+}
+
+.blog p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#blogs div:hover {
+    border: 0.5px solid grey;
+    box-shadow: 15px 35px 15px rgba(121, 197, 227, 0.2);
+    padding: 10px 20px;
+}
+
+.blog h3:hover {
+    box-shadow: 15px 35px 15px 0 rgba(121, 197, 227, 0.12);
+    margin-bottom: 25px;
+}
+
+.blog h3 span:hover {
+    border: 0;
+    box-shadow: 0;
+    padding: 0;
+}
+
+.blog :hover {
+    border: 0.5px solid grey;
+    padding: 10px 20px;
+}
+
+.blog h3:hover,
+.blog p:hover {
+    border: none;
+}
+
+section {
+    padding: 5rem 5%;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form textarea {
+    height: 300px;
+    align-items: center;
+    width: 1700px;
+    border: 1px solid grey;
+    font-size: 18px;
+    font-family: Tahoma, sans-serif;
+    padding: 20px 30px;
+    background-color: rgb(246, 242, 237);
+    color: black;
+    font-weight: 400;
+}
+
+#form textarea .active {
+    box-shadow: 10px 20px 15px rgba(121, 197, 227, 0.2);
+}
+
+#form div {
+    padding: 20px;
+}
+
+button#reset,
+button#submit {
+    font-size: 20px;
+    padding: 10px 20px;
+    font-weight: 500;
+    background-color: rgb(116, 175, 106);
+}
+
+button#reset:hover,
+button#submit:hover {
+    color: white;
+    background-color: rgb(2, 143, 59);
+}
